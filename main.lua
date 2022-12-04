@@ -44,7 +44,7 @@ local esp = Tab:CreateToggle({
 local Silent = Tab:CreateButton({
 	Name = "Silentaim",
 	Callback = function()
-        getgenv().fov = 180 -- Any angle between 0-180 degrees
+        getgenv().fov = 80 -- Any angle between 0-180 degrees
         getgenv().visibleCheck = true -- true, false
         getgenv().targetedPart = "Random" -- "Head", "Torso" or "Random"
         -- phantom forces silent aim
